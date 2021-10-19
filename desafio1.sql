@@ -1,1 +1,2 @@
--- Iniciando projeto
+-- Iniciando o projeto
+SELECT * FROM northwind.products;
