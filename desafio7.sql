@@ -2,6 +2,5 @@
 -- (a ordernação deve ser baseada na coluna id)
 SELECT `id`
 FROM northwind.products
-ORDER BY id
-LIMIT 45
-OFFSET 40;
+ORDER BY id DESC
+LIMIT 5;

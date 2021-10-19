@@ -6,5 +6,5 @@
 
 SELECT *
 FROM northwind.products
-LIMIT 13
+LIMIT 10
 OFFSET 3;
