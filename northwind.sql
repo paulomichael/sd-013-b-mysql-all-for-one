@@ -6,9 +6,9 @@ DROP database IF EXISTS `northwind` ;
 CREATE database IF NOT EXISTS `northwind` DEFAULT CHARACTER SET latin1 ;
 USE `northwind` ;
 
--- -----------------------------------------------------
+-- ----------------------------------------------------
 -- Table `northwind`.`customers`
--- -----------------------------------------------------
+-- ----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `northwind`.`customers` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `company` VARCHAR(50) NULL DEFAULT NULL,
